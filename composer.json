@@ -1,0 +1,25 @@
+{
+  "name": "shchandrei/code-generator",
+  "description": "Php code generator",
+  "minimum-stability": "beta",
+  "license": "proprietary",
+  "authors": [
+    {
+      "name": "Shchedrin Andrei",
+      "email": "resident14101991@gmail.com"
+    }
+  ],
+  "require": {
+    "php": ">=8.2",
+    "nette/php-generator": "^4.0",
+    "cebe/php-openapi": "^1.7",
+    "jawira/case-converter": "^3.5",
+    "league/flysystem-bundle": "^3.3",
+    "symfony/console": "^7.1"
+  },
+  "autoload": {
+    "psr-4": {
+      "Shchandrei\\CodeGenerator\\": "src"
+    }
+  }
+}
